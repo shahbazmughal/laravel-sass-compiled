@@ -1,0 +1,19 @@
+// resources/scss/dashboard.scss
+
+@import 'variables';  // Import the variables file
+
+.dashboard {
+    background: $bg_white;
+    padding: $padding;
+    border: $border;
+    h1 {
+        color: $primary_color;
+        font-weight: $fw_semi_bold;
+        font-size: $h1-size;
+        line-height: $line_height;
+    }
+    p {
+        font-size: $text-size;
+        color: $text-light;
+    }
+}

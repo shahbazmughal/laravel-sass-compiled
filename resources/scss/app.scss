@@ -1,5 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Your custom styles go here */
+
+@import 'variables';  // Import the variables file
+
+// Now use the variables in your styles
+body {
+    font-family: $font-family-base;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+.navbar {
+    background-color: $primary-color;
+}
